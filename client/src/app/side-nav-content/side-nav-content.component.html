@@ -1,0 +1,6 @@
+<div class="side-nav-bar-content">
+        <div *ngFor="let navItem of navItems" (click)="onNavigationSelection(navItem)">
+            <button class="side-nav-buttons" mat-button >{{ navItem.label }}</button>
+        </div>
+        <!-- TODO: Add social media buttons with links -->
+</div>
