@@ -1,0 +1,28 @@
+.header {
+    background-color: #FEC2AF;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    position: sticky;
+}
+
+.sideNav {
+    flex-basis: 40%;
+    padding-left: 1%;
+}
+
+.profileShop {
+    flex-basis: 40%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+}
+
+ .return-home {
+    background-color: transparent;
+ }
