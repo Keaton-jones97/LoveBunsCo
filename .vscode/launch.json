@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch LovebunscoApplication",
+      "request": "launch",
+      "mainClass": "com.lovebunsco.lovebunsco.LovebunscoApplication",
+      "projectName": "lovebunsco"
+    },
+    {
       "name": "ng serve",
       "type": "pwa-chrome",
       "request": "launch",
